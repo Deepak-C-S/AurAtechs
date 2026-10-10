@@ -1,0 +1,49 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Testing and coverage
+coverage/
+
+# Python backend, if present
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envrc
+
+# Uploaded files and temporary data
+uploads/*
+!uploads/.gitkeep
+
+# Local databases
+*.sqlite3
+*.db
